@@ -46,7 +46,7 @@ int main() {
 vector<string> owners = {"Mary Brown", "Max Cooper", "Jordan Miller", "Jessica Wilson"};
 
 // Instantiating a Car object using the constructor,
-Car carObj("1G1AF1F57A7192174", "Toyota", "Corolla", 2012, 183400, owners);
+Car carObj("1G1AF1F57A7192174", "Toyota", "Corolla", 2012, 183400.0, owners);
 
 // Displaying car details using the displayInfo method
 carObj.displayInfo();
